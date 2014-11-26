@@ -1,0 +1,27 @@
+README for OS BASH Assignment-1
+
+1. sum_five.sh
+	calculates sum of digits of five digit integer
+	Usage ./sum_five.sh number 
+
+2. home_dir.sh
+	Reads /etc/passwd file to figure out the home directory of a given user
+	Usage: ./home_dir.sh username, where username is an existing user
+
+3. permissions.sh
+	display the file permissions in the form of a matrix
+	Usage: ./permissions.sh filepath
+
+4. digit_words.sh
+	Prints output of single digit integer in words
+	Usage: ./digit_words.sh num , where num is a single digit integer
+
+5. line_print.sh
+	Prints the name of all the configuration files that have more than 50 lines in the directory /etc/*.conf
+	Usage: ./line_print.sh
+	Caution: System password needs to be provided to give sudo access to the script
+
+6. guess_game.sh
+	Computer guesses randomly generated number using binary search
+	Usage: ./guess_game.sh num, where num is the range till which random number is generated
+	range = 1..num
