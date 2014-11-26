@@ -5,6 +5,7 @@
 
 n=$RANDOM
 a=$((RANDOM%$1+1))
+echo "Random number generated : $a"
 start=1
 end=$1
 while [[ $end -ge $start ]]; do 
